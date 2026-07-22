@@ -1,0 +1,6 @@
+{
+  "name": "戒掉奶茶",
+  "description": "专注健康的自律打卡工具，追踪戒掉奶茶节省的金钱与热量，记录健康生活。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
