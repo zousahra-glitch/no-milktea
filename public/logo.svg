@@ -1,0 +1,144 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Soft background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF0F5" />
+      <stop offset="50%" stop-color="#FFF3EB" />
+      <stop offset="100%" stop-color="#FFE4E1" />
+    </linearGradient>
+    <!-- Rich creamy Milk Tea gradient -->
+    <linearGradient id="teaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDF1EA" />
+      <stop offset="40%" stop-color="#F3CBB3" />
+      <stop offset="100%" stop-color="#DEAA8C" />
+    </linearGradient>
+    <linearGradient id="strawGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFA4C4" />
+      <stop offset="50%" stop-color="#FFC5DA" />
+      <stop offset="100%" stop-color="#FFA4C4" />
+    </linearGradient>
+  </defs>
+
+  <!-- Complete solid background for host systems / iOS apple-touch-icon -->
+  <rect width="512" height="512" rx="120" fill="url(#bgGrad)" />
+
+  <!-- Background decorative sparkles & hearts -->
+  <!-- Cute Pink Hearts -->
+  <path d="M 115 165 C 115 165 107 155 99 160 C 91 165 97 177 115 187 C 133 177 139 165 131 160 C 123 155 115 165 115 165 Z" fill="#FFA4C4" opacity="0.6" />
+  <path d="M 405 325 C 405 325 397 315 389 320 C 381 325 387 337 405 347 C 423 337 429 325 421 320 C 413 315 405 325 405 325 Z" fill="#FFA4C4" opacity="0.6" />
+  
+  <!-- Little yellow stars -->
+  <polygon points="140,105 143,111 149,112 144,116 145,122 140,118 135,122 136,116 131,112 137,111" fill="#FEE180" />
+  <polygon points="370,145 372,150 377,151 373,155 374,161 370,157 366,161 367,155 363,151 368,150" fill="#FEE180" />
+
+  <!-- Angled Striped Straw -->
+  <g transform="rotate(-12 256 180)">
+    <rect x="238" y="50" width="36" height="200" rx="18" fill="url(#strawGrad)" />
+    <!-- White spirals on straw -->
+    <path d="M 238 85 L 274 105" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity="0.8" />
+    <path d="M 238 135 L 274 155" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity="0.8" />
+    <path d="M 238 185 L 274 205" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" opacity="0.8" />
+    <!-- Straw cute topping helper -->
+    <path d="M 256 38 C 256 38 249 29 242 34 C 235 39 240 49 256 58 C 272 49 277 39 270 34 C 263 29 256 38 256 38 Z" fill="#FF5084" />
+  </g>
+
+  <!-- Cup Group -->
+  <g>
+    <!-- Back Outer Cup Body Shadow -->
+    <path d="M 160 190 L 352 190 L 322 430 Q 320 442 308 442 L 204 442 Q 192 442 190 430 Z" fill="#000000" opacity="0.03" />
+
+    <!-- Milk Tea Level Base -->
+    <path d="M 166 210 L 346 210 L 318 422 Q 316 432 304 432 L 208 432 Q 196 432 194 422 Z" fill="url(#teaGrad)" />
+    <!-- Milk Tea Froth Layer (Wave effect) -->
+    <path d="M 166 210 Q 256 216 346 210 L 346 226 Q 256 232 166 226 Z" fill="#FDF7F3" opacity="0.6" />
+
+    <!-- Cute bear peeking inside the milk tea cup -->
+    <g transform="translate(256, 260)">
+      <!-- Bear left ear -->
+      <circle cx="-35" cy="-35" r="14" fill="#BB927D" />
+      <circle cx="-35" cy="-35" r="7" fill="#FFB9D2" />
+      <!-- Bear right ear -->
+      <circle cx="35" cy="-35" r="14" fill="#BB927D" />
+      <circle cx="35" cy="-35" r="7" fill="#FFB9D2" />
+      <!-- Bear head base -->
+      <circle cx="0" cy="-10" r="46" fill="#CBB5A5" />
+      <circle cx="0" cy="-10" r="43" fill="#DEC6B6" />
+      <!-- Snout -->
+      <ellipse cx="0" cy="5" rx="14" ry="10" fill="#FFFFFF" />
+      <!-- Mouth details -->
+      <path d="M -4 5 Q 0 8 4 5" fill="none" stroke="#543C30" stroke-width="2.5" stroke-linecap="round" />
+      <polygon points="-4,2 4,2 0,6" fill="#4B3327" />
+      <!-- Cute bright eyes -->
+      <circle cx="-16" cy="-8" r="4" fill="#3D2A20" />
+      <circle cx="16" cy="-8" r="4" fill="#3D2A20" />
+      <circle cx="-17" cy="-9" r="1.5" fill="#FFFFFF" />
+      <circle cx="15" cy="-9" r="1.5" fill="#FFFFFF" />
+      <!-- Blush -->
+      <circle cx="-25" cy="0" r="5" fill="#FF9EBA" opacity="0.75" />
+      <circle cx="25" cy="0" r="5" fill="#FF9EBA" opacity="0.75" />
+    </g>
+
+    <!-- Glass cup outline -->
+    <path d="M 160 190 L 352 190 L 322 430 Q 320 442 308 442 L 204 442 Q 192 442 190 430 Z" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- Boba Pearls Layer (Cute, shiny, deep brown and black balls) -->
+    <!-- Boba 1 -->
+    <circle cx="210" cy="382" r="21" fill="#24140D" />
+    <circle cx="204" cy="376" r="6" fill="#4B3226" />
+    <circle cx="202" cy="374" r="3" fill="#FFFFFF" opacity="0.85" />
+    
+    <!-- Boba 2 -->
+    <circle cx="248" cy="404" r="21" fill="#180C07" />
+    <circle cx="242" cy="398" r="6" fill="#371E12" />
+    <circle cx="240" cy="396" r="3" fill="#FFFFFF" opacity="0.85" />
+    
+    <!-- Boba 3 -->
+    <circle cx="300" cy="390" r="22" fill="#24140D" />
+    <circle cx="294" cy="384" r="6" fill="#4B3226" />
+    <circle cx="292" cy="382" r="3" fill="#FFFFFF" opacity="0.85" />
+
+    <!-- Boba 4 (Higher stacked) -->
+    <circle cx="185" cy="412" r="17" fill="#180C07" />
+    
+    <circle cx="270" cy="368" r="20" fill="#24140D" />
+    <circle cx="264" cy="362" r="5" fill="#4B3226" />
+    <circle cx="262" cy="360" r="2.5" fill="#FFFFFF" opacity="0.85" />
+
+    <!-- Boba 5 -->
+    <circle cx="226" cy="350" r="19" fill="#180C07" />
+    <circle cx="305" cy="342" r="18" fill="#24140D" />
+    <circle cx="299" cy="336" r="5" fill="#4B3226" />
+    <circle cx="297" cy="334" r="2.5" fill="#FFFFFF" opacity="0.85" />
+
+    <!-- Super Cute Smiling Face on Cup -->
+    <g transform="translate(0, -18)">
+      <!-- Soft red blush -->
+      <ellipse cx="204" cy="285" rx="14" ry="8" fill="#FF8CA6" opacity="0.8" />
+      <ellipse cx="308" cy="285" rx="14" ry="8" fill="#FF8CA6" opacity="0.8" />
+      
+      <!-- Gigantic glossy cartoon eyes -->
+      <circle cx="224" cy="275" r="14" fill="#351F15" />
+      <circle cx="220" cy="270" r="5" fill="#FFFFFF" />
+      <circle cx="227" cy="279" r="2" fill="#FFFFFF" />
+      
+      <circle cx="288" cy="275" r="14" fill="#351F15" />
+      <circle cx="284" cy="270" r="5" fill="#FFFFFF" />
+      <circle cx="291" cy="279" r="2" fill="#FFFFFF" />
+
+      <!-- Wavy little smile "w" -->
+      <path d="M 248 288 Q 256 295 256 288 Q 256 295 264 288" fill="none" stroke="#351F15" stroke-width="4.5" stroke-linecap="round" />
+    </g>
+
+    <!-- Glass gloss highlight (gives dynamic polished professional look) -->
+    <path d="M 175 220 Q 188 320 196 420" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" opacity="0.4" />
+
+    <!-- Soft Transparent Dome Lid representing modern high-end look -->
+    <path d="M 144 190 C 144 110 368 110 368 190 Z" fill="#FFFFFF" opacity="0.25" stroke="#FFFFFF" stroke-width="10" stroke-linejoin="round" />
+    <!-- Pinkish white outline bar on top rim -->
+    <path d="M 144 190 L 368 190" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round" />
+    <path d="M 160 176 L 352 176" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.4" />
+    <!-- Heart Topper plug in container lid -->
+    <rect x="246" y="125" width="20" height="12" rx="4" fill="#FF5084" />
+  </g>
+</svg>
